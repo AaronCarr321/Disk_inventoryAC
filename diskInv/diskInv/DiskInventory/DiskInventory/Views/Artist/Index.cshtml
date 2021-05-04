@@ -1,0 +1,30 @@
+﻿@model List<DiskInventory.Models.Artist>
+@{
+    ViewBag.Title = "Artist Manager";
+}
+<h1>@ViewBag.Title</h1>
+
+@if (Model.Count() > 0)
+{
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Artist ID</th>
+                <th>Last Name</th>
+                <th>First Name</th>
+                <th>Type</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var artist in Model)
+            {
+                <tr>
+                    <td>@artist.ArtistId</td>
+                    <td>@artist.Lname</td>
+                    <td>@artist.Fname</td>
+                    <td>@artist.ArtistTypeId</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
