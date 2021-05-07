@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\diskInv\\diskInv\\DiskInventory\\DiskInventory\\DiskInventory.csproj": {}
+    "C:\\Users\\ACarr\\Documents\\GitHub\\Disk_inventoryAC\\diskInv\\DiskInventory\\DiskInventory\\DiskInventory.csproj": {}
   },
   "projects": {
-    "C:\\diskInv\\diskInv\\DiskInventory\\DiskInventory\\DiskInventory.csproj": {
+    "C:\\Users\\ACarr\\Documents\\GitHub\\Disk_inventoryAC\\diskInv\\DiskInventory\\DiskInventory\\DiskInventory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\diskInv\\diskInv\\DiskInventory\\DiskInventory\\DiskInventory.csproj",
+        "projectUniqueName": "C:\\Users\\ACarr\\Documents\\GitHub\\Disk_inventoryAC\\diskInv\\DiskInventory\\DiskInventory\\DiskInventory.csproj",
         "projectName": "DiskInventory",
-        "projectPath": "C:\\diskInv\\diskInv\\DiskInventory\\DiskInventory\\DiskInventory.csproj",
+        "projectPath": "C:\\Users\\ACarr\\Documents\\GitHub\\Disk_inventoryAC\\diskInv\\DiskInventory\\DiskInventory\\DiskInventory.csproj",
         "packagesPath": "C:\\Users\\ACarr\\.nuget\\packages\\",
-        "outputPath": "C:\\diskInv\\diskInv\\DiskInventory\\DiskInventory\\obj\\",
+        "outputPath": "C:\\Users\\ACarr\\Documents\\GitHub\\Disk_inventoryAC\\diskInv\\DiskInventory\\DiskInventory\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ACarr\\AppData\\Roaming\\NuGet\\NuGet.Config",

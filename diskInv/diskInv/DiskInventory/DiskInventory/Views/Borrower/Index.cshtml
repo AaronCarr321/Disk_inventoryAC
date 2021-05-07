@@ -1,31 +1,27 @@
 ﻿@model List<Borrower>
 @{
-    ViewBag.Title = "Borrower Manager";
+    ViewData["Title"] = "Borrower Page";
 }
-<h1>@ViewBag.Title</h1>
+<h2>Borrower Information</h2>
 
-@if (Model.Count() > 0)
-{
-    <table class="table table-bordered table-striped">
-        <thead>
+<a asp-controller="Borrower" asp-action="Add">Add New Borrower</a>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr><th>BorrowerId</th><th>First Name</th><th>Last Name</th><th>Phone</th><th></th></tr>
+    </thead>
+    <tbody>
+        @foreach (var borrower in Model)
+        {
             <tr>
-                <th>Borrower ID</th>
-                <th>Last Name</th>
-                <th>First Name</th>
-                <th>Phone Number</th>
+                <td>@borrower.BorrowerId</td>
+                <td>@borrower.Fname</td>
+                <td>@borrower.Lname</td>
+                <td>@borrower.PhoneNum</td>
+                <td>
+                    <a asp-controller="Borrower" asp-action="Edit" asp-route-id="@borrower.BorrowerId">Edit</a>
+                    <a asp-controller="Borrower" asp-action="Delete" asp-route-id="@borrower.BorrowerId">Delete</a>
+                </td>
             </tr>
-        </thead>
-        <tbody>
-            @foreach (var borrower in Model)
-            {
-                <tr>
-                    <td>@borrower.BorrowerId</td>
-                    <td>@borrower.Lname</td>
-                    <td>@borrower.Fname</td>
-                    <td>@borrower.PhoneNum</td>
-                </tr>
-            }
-        </tbody>
-    </table>
-}
-
+        }
+    </tbody>
+</table>

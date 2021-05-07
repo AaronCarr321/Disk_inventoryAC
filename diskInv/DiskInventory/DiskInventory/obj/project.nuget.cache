@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BL0PbkcsqinexXfGIMQne+PrF9PJB1BW3tuCNJt6IJU3oVak+ffHDX5uaATv75So8HbkPrde4/j1YaURM/J6qQ==",
+  "dgSpecHash": "pERqMieNMdl95sEJGGLBbFZdrqWN2z8VB2vjtobLh5x4t4gxvVIlrvPGwv908ofg0YFBJh4oLnBZPd81AYB7Kg==",
   "success": true,
-  "projectFilePath": "C:\\diskInv\\diskInv\\DiskInventory\\DiskInventory\\DiskInventory.csproj",
+  "projectFilePath": "C:\\Users\\ACarr\\Documents\\GitHub\\Disk_inventoryAC\\diskInv\\DiskInventory\\DiskInventory\\DiskInventory.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ACarr\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ACarr\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.4\\microsoft.aspnetcore.cryptography.internal.5.0.4.nupkg.sha512",

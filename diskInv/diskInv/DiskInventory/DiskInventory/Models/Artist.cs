@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 #nullable disable
 
@@ -13,8 +14,10 @@ namespace DiskInventory.Models
         }
 
         public int ArtistId { get; set; }
+        [Required(ErrorMessage = "The first name is required.")]
         public string Fname { get; set; }
         public string Lname { get; set; }
+        [Required]
         public int ArtistTypeId { get; set; }
 
         public virtual ArtistType ArtistType { get; set; }

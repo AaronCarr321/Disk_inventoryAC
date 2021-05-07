@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 #nullable disable
 
@@ -14,10 +15,16 @@ namespace DiskInventory.Models
         }
 
         public int DiskId { get; set; }
+        [Required(ErrorMessage = "Please enter a disk name.")]
+        [StringLength(50, MinimumLength = 3, ErrorMessage = "Please enter more than 3 chars.")]
         public string DiskName { get; set; }
+        [Required(ErrorMessage = "Please enter a date.")]
         public DateTime ReleaseDate { get; set; }
+        [Required]
         public int GenreId { get; set; }
+        [Required]
         public int StatusId { get; set; }
+        [Required]
         public int DiskTypeId { get; set; }
 
         public virtual DiskType DiskType { get; set; }

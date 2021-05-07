@@ -86,3 +86,11 @@ C:\diskInv\diskInv\DiskInventory\DiskInventory\obj\Debug\net5.0\DiskInventory.ge
 C:\diskInv\diskInv\DiskInventory\DiskInventory\obj\Debug\net5.0\Razor\Views\Artist\Index.cshtml.g.cs
 C:\diskInv\diskInv\DiskInventory\DiskInventory\obj\Debug\net5.0\Razor\Views\Borrower\Index.cshtml.g.cs
 C:\diskInv\diskInv\DiskInventory\DiskInventory\obj\Debug\net5.0\Razor\Views\Disk\Index.cshtml.g.cs
+C:\diskInv\diskInv\DiskInventory\DiskInventory\obj\Debug\net5.0\Razor\Views\Artist\Delete.cshtml.g.cs
+C:\diskInv\diskInv\DiskInventory\DiskInventory\obj\Debug\net5.0\Razor\Views\Artist\Edit.cshtml.g.cs
+C:\diskInv\diskInv\DiskInventory\DiskInventory\obj\Debug\net5.0\Razor\Views\Borrower\Delete.cshtml.g.cs
+C:\diskInv\diskInv\DiskInventory\DiskInventory\obj\Debug\net5.0\Razor\Views\Borrower\Edit.cshtml.g.cs
+C:\diskInv\diskInv\DiskInventory\DiskInventory\obj\Debug\net5.0\Razor\Views\Disk\Delete.cshtml.g.cs
+C:\diskInv\diskInv\DiskInventory\DiskInventory\obj\Debug\net5.0\Razor\Views\Disk\Edit.cshtml.g.cs
+C:\diskInv\diskInv\DiskInventory\DiskInventory\obj\Debug\net5.0\Razor\Views\DiskHasBorrower\Edit.cshtml.g.cs
+C:\diskInv\diskInv\DiskInventory\DiskInventory\obj\Debug\net5.0\Razor\Views\DiskHasBorrower\Index.cshtml.g.cs
